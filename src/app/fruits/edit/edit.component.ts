@@ -42,7 +42,7 @@ export class EditComponent {
     this.fruitService.update(this.fruitForm)
     .subscribe({
       next:(data) => {
-        this.router.navigate(["/fruits/home"]);
+        this.router.navigate(["/"]);
       },
       error:(err) => {
         console.log(err);
