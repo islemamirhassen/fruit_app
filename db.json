@@ -1,12 +1,6 @@
 {
   "fruits": [
     {
-      "id": 1,
-      "name": "hindi",
-      "price": 1.99,
-      "quantity": 10
-    },
-    {
       "name": "kiwi",
       "quantity": 20,
       "price": 3500,
