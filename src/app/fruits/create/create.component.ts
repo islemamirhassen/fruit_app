@@ -9,7 +9,6 @@ import { HttpClient } from '@angular/common/http';
 @Component({
   selector: 'app-create',
   standalone: true,
-  providers: [HttpClient],
   imports: [FormsModule],
   templateUrl: './create.component.html',
   styleUrl: './create.component.css'
